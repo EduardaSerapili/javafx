@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" style="-fx-border-color: PURPLE;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafxapplication1.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="129.0" layoutY="145.0" onAction="#handleButtonAction" style="-fx-border-radius: 20;" text="Click Me!" textFill="#293bff">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></Button>
+        <Label fx:id="label" layoutX="19.0" layoutY="34.0" minHeight="16" minWidth="69" prefHeight="43.0" prefWidth="284.0" text="MARIA EDUARDA SERAPILI " textAlignment="CENTER">
+         <font>
+            <Font size="23.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#f21ee3" />
+                  <Stop color="#331aba" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <ProgressBar layoutX="82.0" layoutY="100.0" prefHeight="18.0" prefWidth="156.0" progress="0.2" />
+    </children>
+</AnchorPane>
